@@ -17,7 +17,7 @@ import javax.inject.Inject;
         name = "Mouse Button Drop",
         description = "Hold a mouse button (eg. MB4) to left-click drop items as if you were holding shift",
         tags = {"mouse", "button", "drop"},
-        enabledByDefault = false
+        enabledByDefault = true
 )
 @Slf4j
 public class MouseButtonDropPlugin extends Plugin {
